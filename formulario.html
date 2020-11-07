@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <html>
     <head>
         <title>ItaCeramica</title>
     </head>
     <body>
-        <h1>ItaCeramica - A loja parceira da Construção</h1>
-        <h3>Preencha o formulário abaixo, caso deseje fazer algum comentário</h3>
-        <br>
-        <form method="post" action="mailto:rafaelsilveirarafa@gmail.com">
-            Nome: <input type="text" name="nome"><br>
-            Sobrenome: <input type="text" name="sobrenome"><br>
-            Email: <input type="email" name="mail"><br>
-            Sugestões: <textarea name="sugestoes"></textarea><br>
-            <input type="submit" value="Enviar">
-        </form>
-       
+      <!-- Formulario -->
+        <div class="w3-container" id="contact" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-red"><b>Formulário.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <p>Preencha o formulário abaixo, caso deseje fazer algum comentário</p>
+            <form form method="post" action="mailto:rafaelsilveirarafa@gmail.com">
+                <div class="w3-section">
+                    <label>Nome</label>
+                    <input class="w3-input w3-border" type="text" name="Name" required>
+                    <label>Sobrenome</label>
+                    <input class="w3-input w3-border" type="text" name="Name" required>
+                </div>
+                <div class="w3-section">
+                    <label>Email</label>
+                    <input class="w3-input w3-border" type="text" name="Email" required>
+                </div>
+                <div class="w3-section">
+                    <label>Sugestões</label>
+                    <input class="w3-input w3-border" type="textarea" name="Message" required>
+                </div>
+                <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Salvar</button>
+            </form>  
+        </div>
+
     </body>
+
 </html>

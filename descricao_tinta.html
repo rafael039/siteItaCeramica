@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="style.css">
 <html>
     <head>
         <title>ItaCeramica</title>
     </head>
     <body>
-        <h3>Descrição do Produto</h3>
-        <br>
-        <img src="imagens/tinta.jpeg" alt="tinta">
-        <p>Tinta acrílica ideal para quem deseja economia com qualidade. 
-        É lavável, antimofo, de fácil aplicação com pouco respingamento e oferece bom acabamento e resistência.</p>
-        <p>Preço: R$ 90,00</p>
-        
-        <table style="width:100%">
-            <tr>
-              <th>Cor</th>
-              <th>Embalagem</th> 
-              <th>Características Técnicas</th>
-            </tr>
-            <tr>
-              <td>Branco Gelo</td>
-              <td>Lata</td>
-              <td>Rendimento: até 320m² <br>
-                Indicação de uso: Reboco, gesso, concreto, blocos de cimento, massa corrida ou acrílica. <br>
-                Tempo de secagem: Ao toque: 30 minutos. Entre demãos: 4 horas. Final: 4 horas.</td>
-            </tr>
-        </table>
-
+        <div class="w3-container" id="packages" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-red"><b>Produtos.</b></h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+          </div>
+        <div class="imagem>">
+            <img src="imagens/tinta.jpeg" alt="tinta">
+        </div>
+        <div class="tabela>">
+            <div class="w3-row-padding">
+                <div class="w3-half w3-margin-bottom">
+                  <ul class="w3-ul w3-light-grey w3-center">
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Tinta Coral</li>
+                    <li class="w3-padding-16">Cor: Branco Gelo</li>
+                    <li class="w3-padding-16">Embalagem: Lata</li>
+                    <li class="w3-padding-16">Características Técnicas: Rendimento: até 320m².
+                        Indicação de uso: Reboco, gesso, concreto, blocos de cimento, massa corrida ou acrílica. <br>
+                        Tempo de secagem: Ao toque: 30 minutos. Entre demãos: 4 horas. Final: 4 horas. </li>
+                    <li class="w3-padding-16">
+                        <span class="w3-opacity">Preço</span>
+                        <h2>R$ 90,00</h2>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                      <button class="w3-button w3-white w3-padding-large w3-hover-black">Comprar</button>
+                    </li>
+                  </ul>
+                </div>
+        </div>
     </body>
 </html>
